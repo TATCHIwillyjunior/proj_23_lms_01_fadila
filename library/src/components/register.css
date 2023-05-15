@@ -1,0 +1,30 @@
+.back{
+    background-image: 
+    url(
+  "library1.jpeg");
+    background-size:cover;
+   align-self: center;
+    background-repeat:no-repeat; 
+  }
+  
+  .outer{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+    }
+    
+    .inner{
+      padding-left: 60px;
+      width:400px;
+      margin: auto;
+      padding: 70px 55px 50px 55px;
+      border-radius: 25px;
+      background-color: rgb(228, 182, 191);
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2) ;
+    }
+    
+    p{
+      text-align: right;
+    }
+    

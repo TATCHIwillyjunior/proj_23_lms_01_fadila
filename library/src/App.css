@@ -1,3 +1,6 @@
+*, *::after, *::before {
+  scroll-behavior: smooth;
+}
 .back{
   background-image: 
   url(
@@ -6,5 +9,28 @@ height: 100%;
   background-size:1000px 900px;
  align-self: center;
   background-repeat:no-repeat;
-
+  width: 100vw;
+  overflow: none;
+display: grid;
+place-items: center;
 }
+ 
+#sub{
+    width: fit-content;
+    padding: 10px 15px 10px 15px;
+      background: #4a5353;
+      color: white;
+      border: 1px solid transparent;
+      position:fixed;  bottom:90px; 
+      align-items: center;
+    }
+
+#adm{
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+    background: #4a5353;
+    color: white;
+    border: 1px solid transparent;
+    position:fixed;  top:300px; 
+    align-items: center;
+  }
