@@ -1,0 +1,27 @@
+#about{
+    margin-top: 100px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+
+h2{
+    color: black;  
+    text-align: center;
+    
+}
+
+h6{
+    color: black;
+}
+
+#imgAbout{
+    width: 1270px;
+    height: 350px;
+    margin-left: 35px;
+}
+

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-
+import Image from '../../images/lib.jpg';
+//import AddStudent from './addBook';
+import SubscriberStatus from '../studentPage/subscriberStatus';
 const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -12,30 +14,40 @@ const Login = () => {
     };
 
     return (
+        <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", 
+        height:620,width:1360
+        }}>
+            <div className="outer">
+            <div className="inner">
         <main className='login'>
-            <h1 className='loginTitle'>Log into your account</h1>
-            <form className='loginForm' onSubmit={handleSubmit}>
-                <label htmlFor='email'>Email Address</label>
+            <h2>Log into your account</h2>
+            <form onSubmit={handleSubmit}>
+            <div>
+                <label>Email Address</label>
                 <input
-                    type='text'
-                    name='email'
+                    type='email'
                     id='email'
-                    required
-                    value={email}
+                    placeholder="Your email is required"
                     onChange={(e) => setEmail(e.target.value)}
                 />
-                <label htmlFor='password'>Password</label>
+                </div><br/>
+                <div>
+                <label>Password is required</label>
                 <input
                     type='password'
-                    name='password'
                     id='password'
-                    required
-                    value={password}
+                    placeholder="Enter your credential sir"
                     onChange={(e) => setPassword(e.target.value)}
                 />
+                </div><br/><br/>
                 <button className='loginBtn'>SIGN IN</button>
             </form>
         </main>
+        </div>
+        </div>
+        ):(
+        <SubscriberStatus />
+        </div>
     );
 };
 export default Login;

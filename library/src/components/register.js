@@ -3,9 +3,12 @@ import { Alert } from 'react-bootstrap';
 import Login from './login';
 //import "./login.css";
 import  './register.css';
-import image from "../images/library1.jpeg";
+//import image from "../images/library1.jpeg";
 
 
+//<h1> handleSubmit gets the current value of state.Value and adds it to the array of webhooks</h1>
+//<h1>PLACEHOLDER to reserve space for content that soon will appear in a layout</h1>
+//<h1>detects when the value of an input elt changes  ONCHANGE</h1>
 
 function Registration(){
     
@@ -38,25 +41,26 @@ function Registration(){
 
 
     return(
-      //  <div className="back">
 
-<div style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", 
-    height:790,width:1380
-    }}>
+//<div style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", 
+  //  height:790,width:1380
+    //}}>
         <div className="outer">
         {" "}  
 
 {login ? (
 
+<div className='style' >
 <div className='inner'>
-
+       
            <form onSubmit={handleSubmit}>
-                <h1>Register</h1>
+                <h2><strong> Register </strong></h2>
                 <div className='form-group'>
                     <label>Name</label>
                     <input
                     type='text'
                     className='form-control'
+                    
                     placeholder="Enter Full Name" name = "name"
                     onChange={(event)=> setName(event.target.value)}
                     />
@@ -105,7 +109,8 @@ function Registration(){
             </form>
 
 
-            </div>   
+            </div>  
+            </div>
 
             ):(
                 
@@ -113,7 +118,7 @@ function Registration(){
          )}
         </div>
 
-        </div>
+       // </div>
     );
 }
 

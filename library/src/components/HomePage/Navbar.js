@@ -17,11 +17,11 @@ function Navbar() {
 	return (
 		<header>
 			<h3>LOGO</h3>
-			<nav ref={navRef}>
+			<nav ref={navRef} id="nav">
 				<a href="/#">Home</a>
-				<a href="#contact">Contact</a>
-				<a href="/#">Blog</a>
-				<a href="/about">About </a>
+				<a href="#contact">Libraries</a>
+				<a href="/#">Books</a>
+				<a href="/about">About</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

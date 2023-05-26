@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Item from "../../actions/types";
 
 
-class App  {
+class Addstudent  {
   constructor(props) {
     this.state = {
       stundetsInfo: [
@@ -33,4 +33,5 @@ class App  {
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<Addstudent />, document.getElementById('root'));
+export default Addstudent;

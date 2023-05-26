@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "./Login.css";
 import {Alert} from 'react-bootstrap';
 //import { database } from "./container/Database";
+//import register from './register';
+import SubscriberStatus from './studentPage/subscriberStatus';
 
 
 function Login(){
     const[idlog, setIdlog] = useState("");
     const [passwordlog, setPasswordlog] = useState("");
     const[flag, setFlag] = useState(false);
-    const[home, setHome] = useState(true);
+    const[subscriberStatus, setSubscriberStatus] = useState(true);
 
 //flag is used to display functionality
 
@@ -24,18 +26,23 @@ function handleLogin(e){
     }else if(passwordlog !== pass || idlog !== mail){
         setFlag(true)
     }else{
-        setHome(!home);
+        setSubscriberStatus(!subscriberStatus);
        setFlag(false);
     }
+}
+
+function handleClick(){
+    setSubscriberStatus(!subscriberStatus);
 }
 
 
 return(
         <div className="outer">
-            
+            {subscriberStatus ? (
+                <div className='style' >
                 <div className='inner'>
             <form onSubmit={handleLogin}>
-                <h1>LogIn</h1>
+                <h2><strong> LogIn </strong></h2>
             <div className='form-group'>
                     <label>Id</label>
                     <input
@@ -54,7 +61,7 @@ return(
                     onChange={(event) => setPasswordlog(event.target.value)}
                     />
                 </div><br/>
-                <button type='submit' className='btn btn-dark btn-lg btn-block'>
+                <button type='submit' className='btn btn-dark btn-lg btn-block'  onClick={handleClick}>
                     Login
                 </button>
                 {flag &&(
@@ -64,7 +71,10 @@ return(
             )}
              </form>
              </div>
-            
+             </div>
+            ):(
+                <SubscriberStatus />
+         )}
         </div>
     );
 }

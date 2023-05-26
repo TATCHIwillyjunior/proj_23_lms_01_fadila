@@ -7,9 +7,11 @@ import React from 'react';
 
 import image from "./components/library1.jpeg";
 //import Login from "./components/login";
-import Footer from "./components/layout/footer";
-
-import Navbar from "./components/layout/Navbar";
+import About from './components/HomePage/about'
+import Footer from "./components/HomePage/footer";
+import Libraries from "./components/HomePage/Libraries"
+import Navbar from "./components/HomePage/Navbar";
+//import Books from './components/HomePage/Books';
 //import Subscriber from './components/register';
 import { Link } from 'react-router-dom';
 //import AddBook from './components/librarianPage/addBook';
@@ -20,25 +22,31 @@ import { Link } from 'react-router-dom';
 function App(){
   return (
     <div style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", 
-    height:790,width:1380
+    height:780,width:1370
     }}>
       <Navbar />
       
 
-      <div className = "buttons">
-      <Link to = "register">
-        <button id='sub'>Subscriber</button> 
-      </Link>
-      <Link to = "LibrarianLog">
-        <button id='adm'>Admin</button> 
-      </Link>
-      </div> 
       <section id = "contact">
-        Register
+      <h1> WELCOME TO OUR <br/> LIBRARY MANAGEMENT SYSTEM</h1>
         
       </section> 
 
+      <div className = "buttons" id="buttons">
+      <Link to = "register">
+        <button id='sub' className='btn btn-dark btn-lg btn-block'>Subscriber</button> 
+      </Link>
+      <Link to = "LibrarianLog">
+      <button type='submit' className='btn btn-dark btn-lg btn-block' id="admin">
+                    Administrator
+                </button>
+      </Link>
+      </div> 
+      <div id='bottom'>
+      <Libraries/>
+      <About/>
       <Footer> </Footer>
+      </div>
     </div>   
   );
 

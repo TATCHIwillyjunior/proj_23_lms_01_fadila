@@ -1,36 +1,33 @@
 *, *::after, *::before {
   scroll-behavior: smooth;
 }
-.back{
-  background-image: 
-  url(
-"library1.jpeg");
-height: 100%;
-  background-size:1000px 900px;
- align-self: center;
-  background-repeat:no-repeat;
-  width: 100vw;
-  overflow: none;
-display: grid;
-place-items: center;
+
+h1{
+  color: white;
+  text-align: center;
+  padding: 95px;
 }
  
 #sub{
-    width: fit-content;
-    padding: 10px 15px 10px 15px;
-      background: #4a5353;
-      color: white;
-      border: 1px solid transparent;
-      position:fixed;  bottom:90px; 
-      align-items: center;
+  width:fit-content;
+  padding: 5px 5px 5px 5px;
+  margin-left: 325px;
+  margin-top: 175px;
+  background-color: rgb(10, 10, 87);
     }
 
-#adm{
-  width: fit-content;
-  padding: 10px 15px 10px 15px;
-    background: #4a5353;
-    color: white;
-    border: 1px solid transparent;
-    position:fixed;  top:300px; 
-    align-items: center;
+#admin{
+  width:fit-content;
+  padding: 5px 5px 5px 5px;
+  margin-left: 326px;
+  margin-top: 175px;
+  background-color: rgb(10, 10, 87);
+  }
+
+  #buttons{
+    padding: 0.7rem 2.5rem;
+  }
+
+  #bottom{
+    margin-top: 15px;
   }
