@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.book {
+  background: url("library.jpg") no-repeat;
+  background-size: 90%;
+  height: 2000%;
+}

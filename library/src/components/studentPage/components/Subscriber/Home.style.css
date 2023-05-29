@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+}
+.account-menu {
+  width: 100%;
+  padding: 35px;
+  border: 1px solid red;
+}
+.profile-info {
+  padding: 35px;
+  margin: 50px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  display: flex;
+}
+.profile-info .user {
+  margin: 10px;
+  padding: 10px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+}
+.profile-info .contact {
+  margin: 30px;
+  margin-left: 300px;
+}

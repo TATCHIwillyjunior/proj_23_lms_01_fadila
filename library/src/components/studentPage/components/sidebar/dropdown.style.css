@@ -1,0 +1,23 @@
+.dropdown {
+  height: 2rem;
+}
+.dropdown-menu {
+  text-align: center;
+  color: lightslategray;
+  background: aqua;
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-menu:hover {
+  color: lightslategray#fff;
+  background: rgb(236, 232, 232);
+}
+.dropdown-list {
+  border: 1px solid transparent;
+  position: relative;
+  left: 0;
+  width: 100%;
+}
+.dropdown-list:hover {
+  border: 1px solid white;
+}

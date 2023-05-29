@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.menu {
+  display: flex;
+  background-color: rgb(190, 205, 214);
+}

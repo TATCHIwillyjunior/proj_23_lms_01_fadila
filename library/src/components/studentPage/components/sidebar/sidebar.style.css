@@ -1,0 +1,33 @@
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+  background-color: aqua;
+  align-items: stretch;
+}
+.sidebar .side-title {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.sidebar a {
+  color: lightslategray;
+  text-decoration: none;
+  font-size: 20px;
+  height: 25px;
+}
+.sidebar ul {
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+  list-style: none;
+  gap: 2rem;
+  display: grid;
+  text-align: center;
+}
+
+.sidebar li.active {
+  background-color: cornsilk;
+}
+.sidebar li:hover {
+  cursor: pointer;
+  background-color: cornsilk;
+}

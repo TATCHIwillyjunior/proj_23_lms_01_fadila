@@ -1,33 +1,41 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   scroll-behavior: smooth;
 }
 
-h1{
+h1 {
   color: white;
   text-align: center;
   padding: 95px;
 }
- 
-#sub{
-  width:fit-content;
+.back-image {
+  background: url("library1.jpeg");
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+}
+
+#sub {
+  width: fit-content;
   padding: 5px 5px 5px 5px;
   margin-left: 325px;
   margin-top: 175px;
   background-color: rgb(10, 10, 87);
-    }
+}
 
-#admin{
-  width:fit-content;
+#admin {
+  width: fit-content;
   padding: 5px 5px 5px 5px;
   margin-left: 326px;
   margin-top: 175px;
   background-color: rgb(10, 10, 87);
-  }
+}
 
-  #buttons{
-    padding: 0.7rem 2.5rem;
-  }
+#buttons {
+  padding: 0.7rem 2rem;
+  margin-left: 15%;
+}
 
-  #bottom{
-    margin-top: 15px;
-  }
+#bottom {
+  margin-top: 13px;
+}
