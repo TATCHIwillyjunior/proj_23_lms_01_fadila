@@ -14,38 +14,40 @@ export default class libraries extends Component {
         </h2>
         <div id="img">
           <div class="computer">
-            <Link to="Computer">
-              <h4>CS & IT DEPARTMENT LIBRARY</h4>
-            </Link>
-
+          <Link to="Computer">
             <img src={cs} alt=" " id="cs" />
+            <h4>CS & IT DEPARTMENT LIBRARY</h4>
+           </Link>
           </div>
+          
+
           <div class="electric">
             <br />
             <Link to="EET">
-              <h4>EET DEPARTMENT LIBRARY</h4>
+            <img src={eet} alt=" " id="eet" /><br/>
+            <h4>EET DEPARTMENT LIBRARY</h4>
             </Link>
-            <img src={eet} alt=" " id="eet" />
           </div>
+
           <div class="mechanics">
             <Link to="Mechanics">
               <br />
-              <h4>MET DEPARTMENT LIBRARY</h4>
-            </Link>
-
             <img src={met} alt=" " id="met" />
-          </div>
-          <div class="economics">
-            <Link to="Economic">
-              <br />
-              <h4>ECONOMICS DEPARTMENT LIBRARY</h4>
+            <h4>MET DEPARTMENT LIBRARY</h4>
             </Link>
+          </div>
 
+          <div class="economics">
+          <br/>
+            <Link to="Economic">
             <img src={econ} alt=" " id="econ" />
-            <br />
-            <br />
+            <h4>ECONOMICS DEPARTMENT LIBRARY</h4>
+            </Link>
+            <br/>
+            <br/>
           </div>
         </div>
+
         <Link to="register" id="signup">
           <button id="sub" className="btn btn-dark btn-lg btn-block">
             Sign_Up

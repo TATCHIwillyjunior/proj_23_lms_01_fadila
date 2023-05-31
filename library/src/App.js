@@ -22,7 +22,7 @@ function App() {
 
       <div className="back-image">
         <section id="contact">
-          <h1>
+          <h1 className="color">
             {" "}
             WELCOME TO OUR <br /> LIBRARY MANAGEMENT SYSTEM
           </h1>

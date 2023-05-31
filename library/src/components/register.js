@@ -3,6 +3,9 @@ import { Alert } from "react-bootstrap";
 import Login from "./login";
 //import "./login.css";
 import "./register.css";
+import book from '../images/book.png';
+import Navbar from '../components/HomePage/Navbar';
+import Footer from '../components/HomePage/footer';
 //import image from "../images/library1.jpeg";
 
 //<h1> handleSubmit gets the current value of state.Value and adds it to the array of webhooks</h1>
@@ -44,9 +47,11 @@ function Registration() {
       {" "}
       {login ? (
         <div className="style">
+          <Navbar/>
           <div className="inner">
             <form onSubmit={handleSubmit}>
               <h2>
+              <img src={book} alt=" " id="books" />
                 <strong> Register </strong>
               </h2>
               <div className="form-group">
@@ -84,7 +89,7 @@ function Registration() {
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="Enter contact number"
+                  placeholder="Enter your email address"
                   onChange={(event) => setPhone(event.target.value)}
                 />
               </div>
@@ -104,6 +109,7 @@ function Registration() {
               )}
             </form>
           </div>
+          <Footer/>
         </div>
       ) : (
         <Login />

@@ -1,6 +1,6 @@
 #libraries {
-  padding: 5%;
-  margin-top: 188px;
+  padding: 10%;
+  margin-top: 250px;
   color: blue;
 }
 
@@ -37,7 +37,7 @@
 
 .electric h4 {
   position: absolute;
-  margin-top: -240px;
+  margin-top: 10px;
   margin-left: 360px;
   cursor: pointer;
 }
@@ -52,7 +52,7 @@
 
 .mechanics h4 {
   position: absolute;
-  margin-top: -230px;
+  margin-top: 10px;
   margin-left: 700px;
   cursor: pointer;
 }
@@ -67,7 +67,7 @@
 
 .economics h4 {
   position: absolute;
-  margin-top: -280px;
+  margin-top: 5px;
   margin-left: 1050px;
   cursor: pointer;
 }

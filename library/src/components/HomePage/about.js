@@ -13,17 +13,9 @@ export default class about extends Component {
                     <img src={image} alt=" " id="imgAbout"/>
                     
                     
-                    <h6><br/>ABOUT jbvdrfhoglkjernhgiebknfoi hnbvkldfnirehnpibtbjdslfjpro gghrtjty fhrtjtehy dgehrrese
-                         hrnglkjrepg,fb ukejnfeisyh vkjfhbeafhin uezhb gzehbendpve diyhpeozmlg negfv dsfughelf ezgufe
-                         uefbejgf f sdfhzehfyoizelkgzehgfiu efiuhejbfiugeoifbezkhfiejkf  efuhyelfbezofhezieufhkbez
-                         efhbezgfoizeklngljegfuohsd</h6>
+                    <h6><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
                     <h6><br/> 
-                        ABOUT jbvdrfhoglkjernhgiebknfoi hnbvkldfnirehnpibtbjdslfjpro gghrtjty fhrtjtehy dgehrrese
-                         hrnglkjrepg,fb ukejnfeisyh vkjfhbeafhin uezhb gzehbendpve diyhpeozmlg negfv dsfughelf ezgufe
-                         uefbejgf f sdfhzehfyoizelkgzehgfiu efiuhejbfiugeoifbezkhfiejkf  efuhyelfbezofhezieufhkbez
-                         efhbezgfoizeklngljegfuohsdl, fjegfuine euifebf; ezfuef,; efiuef ezjfzeiojfzmkhfiuzegipgzenkjg
-                         kikfdriogreuirdgkjgfdhuereiekidjfdfdkfdkfiodklnfhidfnhifvn fnf^çjivfdindf jdsn jdc jdfcndhfjgkgfg,nnfg
-                         nbgjgffghn ghjgndgh duisvhdsjvn ffghgfgfb gfrnvuryuvb  rvghrkjvbiurhb hufvbhjrjvrn jbgfhriorg,uihft_rç
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </h6>
                    </div>
                   

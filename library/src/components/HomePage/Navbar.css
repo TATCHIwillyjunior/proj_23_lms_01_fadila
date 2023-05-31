@@ -84,3 +84,9 @@ nav {
     font-size: 1.5rem;
   }
 }
+
+#book{
+  width: 90px;
+  height: 85px;
+  margin-left: 5px;
+}

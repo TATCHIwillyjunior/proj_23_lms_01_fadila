@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
-//import { Link } from "react-router-dom";
 import { Alert } from "react-bootstrap";
-//import { database } from "./container/Database";
-//import register from './register';
-//import SubscriberStatus from "./studentPage/subscriberStatus";
+
 import WillyHome from "./studentPage/components/Subscriber/WillyHome";
 
 function Login() {
@@ -45,7 +42,7 @@ function Login() {
                 <strong> LogIn </strong>
               </h2>
               <div className="form-group">
-                <label>Id</label>
+                <label>Id</label><br/>
                 <input
                   type="number"
                   className="form-control"
@@ -53,8 +50,9 @@ function Login() {
                   onChange={(event) => setIdlog(event.target.value)}
                 />
               </div>
+              <br/><br/>
               <div className="form-group">
-                <label>Password</label>
+                <label>Password</label><br/>
                 <input
                   type="password"
                   className="form-control"
@@ -62,13 +60,12 @@ function Login() {
                   onChange={(event) => setPasswordlog(event.target.value)}
                 />
               </div>
-              <br />
+              <br /><br /><br /><br />
 
               <button
                 type="submit"
                 className="btn btn-dark btn-lg btn-block"
-                onClick={handleClick}
-              >
+                onClick={handleClick}>
                 Login
               </button>
               {flag && (
